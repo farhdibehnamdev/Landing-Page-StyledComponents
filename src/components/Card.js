@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { StyledCard } from "./styles/Card.styled";
 
 const Card = function ({ item: { id, title, body, image } }) {
